@@ -1,0 +1,52 @@
+body {
+  padding-top: 4rem;
+  margin: 0;
+  background: black;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 1px 5px #0B1412;
+}
+
+#calculator {
+  width: 300px;
+  margin: 20px auto;
+  background: #01260E;
+  padding: 20px;
+  padding-right: 20px;
+  border-radius: 80px;
+}
+
+.table {
+  text-align: center;
+}
+
+#view {
+  background-color: #c4caef;
+  margin: 10px auto;
+  width: 280px;
+  height: 40px;
+  font-size: 30px;
+  color: #02331a79;
+  text-align: right;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #02331a79;
+  font-size: 30px;
+  width: 70px;
+  height: 50px;
+  border-color: #008E12;
+  border-radius: 10px;
+  color: #c4caef;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #008E12;
+}
